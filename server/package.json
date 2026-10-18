@@ -1,0 +1,33 @@
+{
+  "name": "pet-home-mall-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "宠物之家商城 · 后端服务（C 端 + 商家端 + 平台端，零外部框架依赖）",
+  "main": "src/main.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">= 24.0.0"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "node src/main.js",
+    "seed": "node scripts/seed.js",
+    "reset": "node scripts/reset.js",
+    "smoke": "node scripts/smoke.js",
+    "perf": "node scripts/perf.js",
+    "routes": "node scripts/routes.js",
+    "coverage": "node scripts/check-api-coverage.js",
+    "test": "node scripts/run-tests.js"
+  },
+  "keywords": [
+    "pet-mall",
+    "nodejs",
+    "sqlite",
+    "rest-api"
+  ],
+  "author": "AI 辅助软件开发实践 · 项目实战",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.3"
+  }
+}
